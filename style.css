@@ -1,5 +1,38 @@
-body { background-color: #FFFF66; COLOR: #663300;}
-h1 { color: #663333;}
-h2 { color: #996600;}
-footer {background-color: #FFCC00;}
-li { color: #CC9966 }
+body {
+    background-color: #FFFF66;
+    COLOR: #663300;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+h1 {
+    color: #663333;
+    font-family: "Lucida Handwriting", "Times New Roman";
+    text-align: center;
+    font-weight: bold;
+}
+
+h2 {
+    color: #996600;
+    font-family: Verdana, "Times New Roman";
+}
+
+footer {
+    background-color: #FFCC00;
+    font-size: small;
+}
+
+ul {
+    list-style-image: url(Biene-50px.png);
+    list-style-position: inside
+}
+
+a {
+    font-size: large;
+    font-weight: bold;
+    color: firebrick
+}
+
+li {
+    color: #CC9966;
+    text-align: justify;
+}

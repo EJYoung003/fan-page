@@ -1,5 +1,37 @@
-body { background-color: #663333; COLOR: #FFCC99;}
-h1 { color: #FFFF00;}
-h2 { color: #FFFF99;}
-footer {background-color: #CC9966;}
-li { color: #FFFF66 }
+body {
+    background-color: #663333;
+    COLOR: #FFCC99;
+    font-family: Tahoma, Palatino;
+}
+
+h1 {
+    color: #FFFF00;
+    font-family: Papyrus, Helvetica;
+    text-align: center;
+    text-decoration-line: underline;
+}
+
+h2 {
+    color: #FFFF99;
+    font-family: Palatino, Georgia;
+}
+
+footer {
+    background-color: #CC9966;
+    font-size: x-small;
+}
+
+a {
+    font-size: large;
+    font-weight: bold;
+    color: saddlebrown
+}
+
+ul {
+    list-style-image: url(hive-30px.png);
+    list-style-position: inside
+}
+
+li {
+    color: #FFFF66
+}
