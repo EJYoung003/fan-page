@@ -1,19 +1,54 @@
 body {
     background-color: #FFFF66;
+    background-image: linear-gradient(to bottom, #F4EAD6, #CC9933, #B35900);
     COLOR: #663300;
     font-family: Verdana, Arial, sans-serif;
 }
 
+#container {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #EAD6AD;
+    width: 900px;
+    padding: 40px;
+    border: 10px;
+}
+
 h1 {
     color: #663333;
+    text-shadow: 3px 0px 0px #FFFFCC;
     font-family: "Lucida Handwriting", "Times New Roman";
     text-align: center;
     font-weight: bold;
+    background-image: url(EJYBee2sm.jpg);
+    background-clip: border-box;
+    width: 600px;
+    height: 300px;
+    border: 6px solid #663333;
+    border-radius: 10px;
+    box-shadow: 0px 8px 15px;
+}
+
+main {
+    background-image: url(Biene-300px.png);
+    background-position: right;
+    background-size: 22%;
+    background-repeat: no-repeat
 }
 
 h2 {
     color: #996600;
     font-family: Verdana, "Times New Roman";
+    text-transform: uppercase;
+}
+
+p {
+    text-align: center;
+    text-indent: 6em;
+}
+
+nav {
+    font-weight: bold
 }
 
 footer {
@@ -33,6 +68,6 @@ a {
 }
 
 li {
-    color: #CC9966;
+    color: #000000;
     text-align: justify;
 }

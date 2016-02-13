@@ -1,14 +1,39 @@
 body {
-    background-color: #663333;
-    COLOR: #FFCC99;
+    background-color: #CC6600;
+    background-image: radial-gradient(#CC6600, #FFA64D) COLOR: #FFCC99;
     font-family: Tahoma, Palatino;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+    background-image: url(hive-300px.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center;
+}
+
+#container {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #992000;
+    width: 1400px;
+    padding: 50px;
+    border: 20px;
 }
 
 h1 {
     color: #FFFF00;
+    text-shadow: 5px 0px 0px #990000;
     font-family: Papyrus, Helvetica;
     text-align: center;
     text-decoration-line: underline;
+    font-weight: bolder;
+    background-image: url(hive-100px.png);
+    width: 800px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0px 10px 20px;
 }
 
 h2 {
@@ -16,9 +41,32 @@ h2 {
     font-family: Palatino, Georgia;
 }
 
+p {
+    text-align: center;
+    text-indent: 4em;
+    background-color: #CC9966;
+    border-radius: 15px;
+    opacity: 0.8;
+    border: 6px;
+    border-color: #331A00;
+    border-style: ridge;
+}
+
+nav {
+    font-weight: bold;
+    text-shadow: 0px 1px 0px #CC9966;
+    background-color: black;
+}
+
 footer {
     background-color: #CC9966;
     font-size: x-small;
+    font-style: italic;
+    border-radius: 8px;
+    border-style: double;
+    border-color: #331A00;
+    text-align: center;
+    opacity: 0.5;
 }
 
 a {
@@ -29,9 +77,15 @@ a {
 
 ul {
     list-style-image: url(hive-30px.png);
-    list-style-position: inside
+    list-style-position: inside;
+    background-color: #CC9966;
+    color: #FFFFFF;
+    border-radius: 10px;
+    border: 4px #331A00;
+    border-style: ridge;
+    opacity: 0.9;
 }
 
 li {
-    color: #FFFF66
+    color: #000000;
 }
