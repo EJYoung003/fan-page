@@ -12,8 +12,11 @@ main {
     background-position: bottom;
     background-size: 10%;
     background-repeat: no-repeat;
-    margin-left: 230px; margin-bottom: 20px;
-    padding:25px; padding-bottom: 35px;
+    margin-left: 230px;
+    margin-bottom: 20px;
+    padding: 25px;
+    padding-bottom: 35px;
+    display: block;
 }
 
 #container {
@@ -116,6 +119,18 @@ nav a {
     text-decoration: none;
 }
 
+a:link {
+    color: #666633;
+}
+
+a:visited {
+    color: #996608;
+}
+
+a:hover {
+    color: #CC3333;
+}
+
 footer {
     background-color: #FFCC00;
     font-size: small;
@@ -125,6 +140,7 @@ ul {
     list-style-image: url(Biene-50px.png);
     list-style-position: outside;
     text-decoration: none;
+    display: block;
 }
 
 a {
