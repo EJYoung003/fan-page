@@ -17,7 +17,7 @@ main {
     margin-left: auto;
     margin-right: auto;
     background-color: #992000;
-    width: 1400px;
+    width: 85%;
     padding: 50px;
     border: 20px;
 }
@@ -88,4 +88,85 @@ ul {
 
 li {
     color: #000000;
+}
+
+@media only screen and (max-width: 480px) {
+    main {
+        margin-left: 0;
+        width: auto;
+    }
+    h1,
+    h2 {
+        font-size: 90%;
+        background-repeat: no-repeat;
+    }
+    h1 {
+        text-align: left;
+    }
+    nav,
+    nav ul,
+    nav li {
+        float: none;
+        display: block;
+        width: auto;
+        padding: 0;
+        position: static
+    }
+    nav a {
+        display: inline-block;
+        float: none;
+        padding: 0.3em 0;
+    }
+    div {
+        width: auto;
+        height: auto;
+    }
+    #about {
+        margin-left: 0;
+        margin-right: auto;
+        padding: 0.8em;
+        width: auto;
+        height: auto;
+    }
+    #flower {
+        display: none
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    main {
+        margin: 0;
+        width: auto;
+    }
+    body {
+        margin-left: 0;
+        width: auto;
+    }
+    h1,
+    h2 {
+        font-size: 120%;
+    }
+    p {
+        display: block;
+    }
+    nav,
+    nav ul,
+    nav li {
+        float: none;
+        display: inline-block;
+        position: static;
+        width: auto;
+        padding: 0;
+    }
+    nav a {
+        float: none;
+        padding: 0.4em 0;
+    }
+    div {
+        width: auto;
+    }
+    #about {
+        margin-left: 40%;
+        width: auto
+    }
 }
